@@ -3,6 +3,8 @@
 <head>
   <title>Wicker Park Ventures - a healthcare VC fund</title>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -11,72 +13,81 @@
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" height="30" alt="Home" class="img-circle"></a>
-    </div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" height="30" alt="Home" class="img-circle"></a>
+      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html" class="glyphicon glyphicon-home"><span class="sr-only">(current)</span></a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="team.html">Team</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">INVESTOR LOGIN</a></li>
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-  <div class="container">
-    <div>
-      <h1 id="tagline"=""><a href="index.html"><img src="img/logo.jpg" height="80" alt="Home" class="img-circle">
-        </a><strong>  Wicker Park Ventures</strong> <small><em>a healthcare VC fund</em></small>
-      </h1>
-    </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html" class="glyphicon glyphicon-home"><span class="sr-only">(current)</span></a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+                  <li class="dropdown">
+                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                     <li><a href="index.html">Home</a></li>
+                     <li><a href="portfolio.html">Portfolio</a></li>
+                     <li><a href="team.html">Team</a></li>
+                     <li><a href="contact.html">Contact</a></li>
+                   </ul>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+    <div class="container">
+      <div>
+        <h1 id="tagline"=""><a href="index.html"><img src="img/logo.jpg" height="80" alt="Home" class="img-circle">
+          </a><strong>  Wicker Park Ventures</strong> <small><em>a healthcare VC fund</em></small>
+        </h1>
+      </div>
+      <div class="jumbotron">
+        <h3 class="text-center"><em>Wicker Park Ventures is a life sciences venture capital fund investing
+        in early-stage, healthcare technology companies with the potential to transform patient care.</em>
+        </h3>
+      </div>
 
-    <div class="jumbotron">
-      <h3 class="text-center"><em>Wicker Park Ventures is a life sciences venture capital fund investing
-        in early-stage, healthcare technology companies with the potential to transform patient care.</em></h3>
-        <p><a class="btn btn-primary btn-lg" href="portfolio.html" role="button">Our Approach</a></p>
-    </div>
+      <div>
+      <p><a class="btn btn-primary btn-lg" href="portfolio.html" role="button">Our Approach</a></p>
+      </div>
 
-    <div class="row">
-      <div class="col-sm-4">
-        <h4 class="text-center">0</h4>
-        <p class="text-center">YEARS EXPERIENCE INVESTING</p>
-        <p class="text-center">IN START UPS.</p>
+      <div class="row">
+        <div class="col-sm-4" class="panel-body">
+          <h4 class="text-center">0</h4>
+          <p class="text-center"><strong>years experience investing</p>
+          <p class="text-center">in start-ups.</strong></p>
         </div>
-      <div class="col-sm-4">
-        <h4 class="text-center">$1</h4>
-        <p class="text-center">OF CAPITAL RAISED TO-DATE.</p>
-        <p class="text-center">(FROM MY GRANDMA)</p>
-      </div>
-      <div class="col-sm-4">
-        <h4 class="text-center">NO CLUE</h4>
-        <p class="text-center">OF HOW TO FIX THE PROBLEMS</p>
-        <p class="text-center">PLAGUING THE HEALTHCARE SYSTEM</p>
+        <div class="col-sm-4" class="panel-body">
+          <h4 class="text-center">$1.00</h4>
+          <p class="text-center"><strong>of capital raised to-date.</p>
+          <p class="text-center">(from my dad)</strong></p>
+        </div>
+        <div class="col-sm-4" class="panel-body">
+          <h4 class="text-center">No</h4>
+          <p class="text-center"><strong>clue of how to fix the problems</p>
+            <p class="text-center">plaguing the U.S. healthcare system.</strong></p>
+        </div>
       </div>
     </div>
-  </div>
-  <br></br>
-</body>
-<footer>
-  <div class="col-sm-12" id="copywright">
-    <h5>
-      <p class="text-center">©2017 Wicker Park Ventures, LLC  --  All rights reserved  --  Website Design: Matthew Kopfensteiner</p>
-    </h5>
-  </div>
-</footer>
+      <br></br>
+  </body>
+  <footer>
+    <div class="col-sm-12" id="copywright">
+      <h5>
+        <p class="text-center">©2017 Wicker Park Ventures, LLC  --  All rights reserved  --  Website Design: Matthew Kopfensteiner</p>
+      </h5>
+    </div>
+  </footer>
 </html>
